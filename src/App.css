@@ -1,0 +1,41 @@
+.nav {
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+a {
+    color: white;
+}
+
+.movies{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.movies-card{
+    transition-duration: 0.4s;
+}
+.movies-card:hover{
+    transform: scale(1.1);
+}
+.container 
+{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.search {border-radius: 8px;
+border: 3px solid ;
+margin: 20px;
+width: 150px;
+padding-left: 50px;
+}
